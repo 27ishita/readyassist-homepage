@@ -11,7 +11,7 @@ export class AppComponent {
     'https://www.readyassist.in/assets/banner/driveu.png',
     'https://www.readyassist.in/assets/banner/shell.png',
   ];
-  data = [
+  testimonyData = [
     {
       image: 'https://www.readyassist.in/assets/banner/driveu.png',
       text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam architecto quos modi? Nemo tempora perferendis quam, corporis quo a praesentium repellat aspernatur tempore asperiores fuga maxime mollitia eius odio facere!',
@@ -51,6 +51,28 @@ export class AppComponent {
       text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam architecto quos modi? Nemo tempora perferendis quam, corporis quo a praesentium repellat aspernatur tempore asperiores fuga maxime mollitia eius odio facere!',
       title: '2 Wheelers',
       price: 2000,
+    },
+  ];
+  reviewData = [
+    {
+      image: 'https://randomuser.me/api/portraits/men/15.jpg',
+      text: 'Very helpful customer support! They addressed my issue promptly and sent the technician immediately. The problem was resolved and I am a happy person :)Have subscribed for their RSA assistance which is across India.',
+      name: 'Chandler',
+    },
+    {
+      image: 'https://randomuser.me/api/portraits/women/20.jpg',
+      text: 'Very helpful customer support! They addressed my issue promptly and sent the technician',
+      name: 'Monica',
+    },
+    {
+      image: 'https://randomuser.me/api/portraits/women/60.jpg',
+      text: 'I had a flat tyre. So I texted in whatsapp at evening around 8. I got a quick response. In less than an hour it was fixed. Great service. Executive Atul and tecnician Afroz were very cooperative and issue was fixed so quick. Thanks for the help.',
+      name: 'Rachel',
+    },
+    {
+      image: 'https://randomuser.me/api/portraits/men/10.jpg',
+      text: 'I had a flat tyre. So I texted in whatsapp at evening around 8. I got a quick response. In less than an hour it was fixed',
+      name: 'Joey',
     },
   ];
 }

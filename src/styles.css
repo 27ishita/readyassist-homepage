@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-brand {
+  background-color: rgb(255 198 0) !important;
+}
+
+.gap-1 {
+  gap: 1rem !important;
+}
+
+.btn-w {
+  width: 150px;
+  height: 50px;
+}
+
+.btn-fancy {
+  border-radius: 5px 25px;
+  width: 200px;
+}
+
+.main-banner {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid rgb(255 198 0);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.btn-fancy-2 {
+  border-radius: 25px 5px 5px 5px;
+  width: 200px;
+}
+
+.btn-fancy-3 {
+  border-radius: 5px 5px 25px 5px;
+  width: 200px;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 180px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.review-img {
+  display: block;
+  height: 100%;
+}
+
+.text-brand {
+  color: rgb(255 198 0) !important;
+}
+
+.testimony-img {
+  max-height: 200px;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+}
+
+.testimony {
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px,
+    rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}

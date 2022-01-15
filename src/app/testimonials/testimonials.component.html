@@ -1,0 +1,15 @@
+<div class="testimonials m-5 align-items-center">
+  <ng-container *ngFor="let d of data; let i = index">
+    <div class="testimony d-flex gap-4" *ngIf="i === currentIndex">
+      <img class="testimony-img" [src]="d.image" alt="" />
+      <div class="testimony-content d-flex flex-column justify-content-center">
+        <h3>{{ d.company }}</h3>
+        <p>
+          {{ d.text }}
+        </p>
+        <span class="fw-bold align-self-end">{{ d.name }}&nbsp;</span>
+        <span class="align-self-end">{{ d.designation }}</span>
+      </div>
+    </div>
+  </ng-container>
+</div>

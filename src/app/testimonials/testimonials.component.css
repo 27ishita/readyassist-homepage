@@ -1,0 +1,24 @@
+.testimony-img {
+  max-height: 200px;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+}
+
+.testimony {
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px,
+    rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+  animation-name: testimony-animation;
+  animation-duration: 2s;
+}
+
+@keyframes testimony-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

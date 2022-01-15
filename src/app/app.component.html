@@ -1,7 +1,5 @@
 <app-nav-bar> </app-nav-bar>
 
-<!-- nav-bar end -->
-
 <div class="main-banner">
   <img
     src="https://www.readyassist.in/assets/images/home/RAtruck-min.png"
@@ -24,46 +22,11 @@
 <app-testimonials [data]="data"></app-testimonials>
 
 <!-- testimony ends -->
-<div class="cards-container mx-5 d-flex justify-content-between">
-  <div class="card" style="width: 18rem" *ngFor="let x of [1, 2, 3, 4]">
-    <img
-      src="https://www.readyassist.in/assets/plans/3.jpg"
-      class="card-img-top"
-      alt="..."
-    />
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio
-        aperiam natus! Placeat tempore quidem voluptas perspiciatis, delectus
-        exercitationem
-      </p>
-      <a href="#" class="btn bg-brand">Buy Now</a>
-    </div>
-  </div>
-</div>
+<app-prices [priceData]="priceData"></app-prices>
 <!-- card ends -->
 
 <!--  -->
-<div class="reviews">
-  <div class="review m-5" *ngFor="let x of [1, 2, 3, 4]">
-    <img
-      src="https://randomuser.me/api/portraits/men/10.jpg"
-      alt=""
-      class="review-img"
-    />
-
-    <div class="review-content p-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, magnam
-        amet! Consequuntur pariatur obcaecati repellendus ut laboriosam, aperiam
-        saepe mollitia! Dolor aspernatur eos dicta sint. Libero odio facere enim
-        veritatis?
-      </p>
-      <p class="fw-bold text-end">John Doe</p>
-    </div>
-  </div>
-</div>
+<app-reviews></app-reviews>
 <!-- review ended -->
 
 <footer class="d-flex align-items-center flex-column bg-brand py-4 fw-bold">

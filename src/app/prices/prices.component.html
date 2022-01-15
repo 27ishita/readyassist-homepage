@@ -1,0 +1,12 @@
+<div class="cards-container mx-5 d-flex justify-content-between">
+  <div class="card" style="width: 18rem" *ngFor="let x of priceData">
+    <img [src]="x.image" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ x.title }}</h5>
+      <p class="card-text">
+        {{ x.text }}
+      </p>
+      <a href="#" class="btn bg-brand">Buy for {{ x.price }}</a>
+    </div>
+  </div>
+</div>

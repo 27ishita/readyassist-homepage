@@ -27,4 +27,30 @@ export class AppComponent {
       company: 'SHELL',
     },
   ];
+  priceData = [
+    {
+      image: 'https://www.readyassist.in/assets/plans/4.jpg',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam architecto quos modi? Nemo tempora perferendis quam, corporis quo a praesentium repellat aspernatur tempore asperiores fuga maxime mollitia eius odio facere!',
+      title: 'Prime Sedan',
+      price: 4000,
+    },
+    {
+      image: 'https://www.readyassist.in/assets/plans/freedom.jpeg',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam architecto quos modi? Nemo tempora perferendis quam, corporis quo a praesentium repellat aspernatur tempore asperiores fuga maxime mollitia eius odio facere!',
+      title: 'Car Pro',
+      price: 2000,
+    },
+    {
+      image: 'https://www.readyassist.in/assets/plans/3.jpg',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam architecto quos modi? Nemo tempora perferendis quam, corporis quo a praesentium repellat aspernatur tempore asperiores fuga maxime mollitia eius odio facere!',
+      title: 'Prime Sedan',
+      price: 3000,
+    },
+    {
+      image: 'https://www.readyassist.in/assets/plans/2-wheeler-pro.jpeg',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam architecto quos modi? Nemo tempora perferendis quam, corporis quo a praesentium repellat aspernatur tempore asperiores fuga maxime mollitia eius odio facere!',
+      title: '2 Wheelers',
+      price: 2000,
+    },
+  ];
 }

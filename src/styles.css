@@ -17,11 +17,6 @@
   width: 200px;
 }
 
-.main-banner {
-  display: flex;
-  align-items: center;
-}
-
 .card {
   overflow: hidden;
   border-radius: 1rem;

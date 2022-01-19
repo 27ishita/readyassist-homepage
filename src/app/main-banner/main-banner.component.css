@@ -1,0 +1,16 @@
+.main-banner {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-banner {
+    flex-direction: column;
+  }
+  .main-banner > img {
+    width: 100%;
+  }
+  .main-banner > div {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+  .responsive-navbar {
+    flex-direction: column;
+  }
+  .responsive-navbar > button {
+    width: 100%;
+  }
+  .btn-fancy {
+    border-radius: 0 0 25px 25px;
+  }
+}
